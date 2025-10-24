@@ -1,0 +1,58 @@
+# ==================== .dockerignore ====================
+# Exclude unnecessary files from Docker build
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+docs/
+
+# Tests
+tests/
+*.pytest_cache/
+
+# Local environment
+.env.local
+.env.development
+
+# Logs
+*.log
+logs/
+
+# Database backups
+backups/
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
