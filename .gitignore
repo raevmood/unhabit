@@ -67,3 +67,4 @@ docker-compose.override.yml
 
 # --- n8n ---
 .n8n/
+.streamlit/secrets.toml

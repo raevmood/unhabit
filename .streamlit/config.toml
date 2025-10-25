@@ -1,0 +1,19 @@
+# ==================== .streamlit/config.toml ====================
+# Streamlit UI configuration
+# Place this file in: .streamlit/config.toml
+
+[theme]
+primaryColor = "#4CAF50"
+backgroundColor = "#F1F8F4"
+secondaryBackgroundColor = "#E8F5E9"
+textColor = "#1B5E20"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
